@@ -1,0 +1,1 @@
+alter user 'dbApp'@'localhost' identified with mysql_native_password by 'dbApp';
