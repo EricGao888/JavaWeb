@@ -10,3 +10,4 @@
 ## Development Diary
 - In StudentServletController, ```init()``` method is called by the server when the Servlet is initialized. 
 - Run Servlet instead of JSP to test.
+- Use ```Inspect``` in Chrome to help debug the front-end.

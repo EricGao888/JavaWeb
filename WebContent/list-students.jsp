@@ -1,13 +1,10 @@
-<%@ page import = "java.util.*, com.ericgao.jdbc.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>JDBC App</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-
-<%
-	List<Student> theStudents = (List<Student>) request.getAttribute("STUDENT_LIST");
-%>
 
 <body>
 <%-- 	<%=theStudents%> --%>
@@ -28,15 +25,14 @@
 					<th>Email</th>
 				</tr>
 				
-				<% for (Student tempStudent : theStudents) { %>
-				
+				<c:forEach var="tmpStudent" items="${STUDENT_LIST}">
+					
 					<tr>
-						<td> <%= tempStudent.getFirstName() %> </td>
-						<td> <%= tempStudent.getLastName() %> </td>
-						<td> <%= tempStudent.getEmail() %> </td>
+						<td> ${tmpStudent.firstName} </td>
+						<td> ${tmpStudent.lastName}</td>
+						<td> ${tmpStudent.email} </td>
 					</tr>
-				
-				<% } %>
+				</c:forEach>
 				
 			</table>
 		</div>
