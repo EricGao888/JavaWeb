@@ -23,3 +23,4 @@
 - Manage imports.
 - Create undefined method.
 - Locate the definition.
+- Auto-generate ```toString()``` for debugging.
