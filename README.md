@@ -1,7 +1,7 @@
 # JavaWeb
 ## Configuration
 - Add the JDBC driver for MySQL under the WEB-INF folder.
-- Add the JSTL JAR and JSTL-API JAR under the WEB-INF folder.
+- Add the JSTL JAR and JSTL-API JAR under the WEB-INF/lib folder.
 - Add the content.xml under the META-INF to config JDBC.
 - The @Resource is assocated with the name in the context.xml.
 
