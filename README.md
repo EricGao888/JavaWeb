@@ -1,6 +1,7 @@
 # JavaWeb
 ## Configuration
-- Add the JDBC driver for MySQL under the WEB-INF folder.
+- Use `Eclipse` to connect the Tomcat Server.
+- Add the JDBC driver for MySQL under the WEB-INF/lib folder.
 - Add the JSTL JAR and JSTL-API JAR under the WEB-INF/lib folder.
 - Add the content.xml under the META-INF to config JDBC.
 - The @Resource is assocated with the name in the context.xml.
@@ -14,7 +15,7 @@
 ## Development Diary
 
 ### MVC
-- In StudentServletController, ```init()``` method is called by the server when the Servlet is initialized. 
+- In StudentServletController, ```init()``` method is called by the server when the Servlet is initialized, in this method, dataSource is passed to the DB model. 
 - Run Servlet instead of JSP to test.
 - Use ```Inspect``` in Chrome to help debug the front-end.
 - Not all pages need back-end.
@@ -23,12 +24,13 @@
 - Use ```@Resource(name = "xxx")``` along with the ***xml*** file to perform injection for **database connection pool**.
 - The container call the ```service()``` method which calls ```doGet()``` or ```doPost()``` automatically.
 
-### Eclipse Tricks
+### Eclipse Tricks(mainly in `source` menu)
 - Manage imports.
 - Create undefined method.
 - Locate the definition.
 - Auto-generate ```toString()``` for debugging.
 - Create Servlet Module: `doGet()`, `doPost()`.
+- Create `constructors`, `setters` and `getters` for a new-defined class. 
 
 
 ### Deploy App on Tomcat Server
