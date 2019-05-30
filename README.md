@@ -4,7 +4,10 @@
 - Add the JSTL JAR and JSTL-API JAR under the WEB-INF/lib folder.
 - Add the content.xml under the META-INF to config JDBC.
 - The @Resource is assocated with the name in the context.xml.
-
+- Files in the ```sql``` folder is used to set up the table in database.
+- Servlet files are under the folder `src` and JSP files are under the folder `WebContent`.
+- web.xml under the `WEB-INF` folder is used to determine the order of pages to be used as mainpage.
+ 
 ## Trouble Shooting
 - Modifying the 'Server' folder automatically created by Eclipse will cause problem, you can delete the hidden '.metadata' folder to repair the bug.
 
@@ -25,6 +28,7 @@
 - Create undefined method.
 - Locate the definition.
 - Auto-generate ```toString()``` for debugging.
+- Create Servlet Module: `doGet()`, `doPost()`.
 
 
 ### Deploy App on Tomcat Server
