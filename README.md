@@ -1,4 +1,14 @@
 # JavaWeb
+- [Project Review: MVC with Java](https://ericgao888.github.io/2019/05/29/JavaMVC/)
+
+
+## Project Description
+- Build a database Web App of student information.
+- Users can view, insert, update, delete student records from web browser.
+- ***Servlet***, ***JSP***(including ***JSTL***), ***JDBC*** are used.
+- MySQL is as database.
+- Use Eclipse as IDE.
+
 ## Configuration
 - Use `Eclipse` to connect the Tomcat Server.
 - Add the JDBC driver for MySQL under the WEB-INF/lib folder.
