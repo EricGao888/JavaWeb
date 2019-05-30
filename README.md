@@ -5,7 +5,7 @@
 - Add the content.xml under the META-INF to config JDBC.
 - The @Resource is assocated with the name in the context.xml.
 - Files in the ```sql``` folder is used to set up the table in database.
-- Servlet files are under the folder `src` and JSP files are under the folder `WebContent`.
+- Servlet files, DB models and self-defined classes are under the folder `src` and JSP files are under the folder `WebContent`.
 - web.xml under the `WEB-INF` folder is used to determine the order of pages to be used as mainpage.
  
 ## Trouble Shooting
