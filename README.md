@@ -6,7 +6,7 @@
 - Build a database Web App of student information.
 - Users can view, insert, update, delete student records from web browser.
 - ***Servlet***, ***JSP***(including ***JSTL***), ***JDBC*** are used.
-- MySQL is as database.
+- MySQL is used as database.
 - Use Eclipse as IDE.
 
 ## Configuration
